@@ -66,13 +66,13 @@ logging:
     path: ./logs/
 
   level:
-    root: INFO
-    lavalink: INFO
+    root: DEBUG
+    lavalink: DEBUG
 
   request:
     enabled: true
     includeClientInfo: true
-    includeHeaders: false
+    includeHeaders: true
     includeQueryString: true
     includePayload: true
     maxPayloadLength: 10000
